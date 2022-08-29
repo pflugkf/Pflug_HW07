@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Assignment #: HW07
+File Name: Group25_HW07 - fragment_register.xml
+Full Name: Kristin Pflug-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <EditText
+        android:id="@+id/register_nameTextbox"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/name_textbox_hint_text"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/register_emailTextbox"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/email_textbox_hint_text"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_nameTextbox" />
+
+    <EditText
+        android:id="@+id/register_passwordTextbox"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/password_textbox_hint_text"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_emailTextbox" />
+
+    <Button
+        android:id="@+id/register_submitButton"
+        android:layout_width="283dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit_button_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_passwordTextbox" />
+
+    <Button
+        android:id="@+id/register_cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:text="@string/cancel_button_label"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_submitButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

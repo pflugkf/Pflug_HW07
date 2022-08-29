@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pflug_HW07</string>
+
+    <string name="email_textbox_hint_text">Email</string>
+    <string name="name_textbox_hint_text">Name</string>
+    <string name="password_textbox_hint_text">Password</string>
+    <string name="list_name_textbox_hint_text">Shopping List Name</string>
+    <string name="item_name_textbox_hint_text">Item Name</string>
+    <string name="item_price_textbox_hint_text">Item Price</string>
+
+    <string name="login_button_label">Login</string>
+    <string name="logout_button_label">Logout</string>
+    <string name="create_account_button_label">Create New Account</string>
+    <string name="create_list_button_label">Create New List</string>
+    <string name="manage_users_button_label">Manage Users</string>
+    <string name="invite_user_button_label">Invite User</string>
+    <string name="submit_button_label">Submit</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="add_item_button_label">Add Item</string>
+    <string name="my_lists_button_label">My Lists</string>
+    <string name="shared_lists_button_label">My Shared Lists</string>
+    <string name="friend_list_button_label">My Friends List</string>
+
+    <string name="login_fragment_title">Login</string>
+    <string name="register_fragment_title">Create New Account</string>
+    <string name="profile_fragment_title">Profile</string>
+    <string name="myLists_fragment_title">My Lists</string>
+    <string name="list_details_fragment_title">List Details</string>
+    <string name="invited_lists_fragment_title">My Shared Lists</string>
+    <string name="create_list_fragment_title">Create New List</string>
+    <string name="add_item_fragment_title">Add Item</string>
+    <string name="invited_users_fragment_title">Invited Users</string>
+    <string name="add_user_fragment_title">Add User</string>
+    <string name="friends_list_fragment_title">Friends List</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518299407766",
+    "project_id": "pflug-hw07",
+    "storage_bucket": "pflug-hw07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518299407766:android:b22e1bf888335b72c839b7",
+        "android_client_info": {
+          "package_name": "com.example.pflug_hw07"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518299407766-79vq3du4kd2pb5e78ttrq1goe2rojsap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_sYOXTkSCfo_2D9fc4lFHSoOCFBw1S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518299407766-79vq3du4kd2pb5e78ttrq1goe2rojsap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
